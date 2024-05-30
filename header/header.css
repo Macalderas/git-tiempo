@@ -1,26 +1,23 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
 
 .header {
-    background-color: #1e86ef;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo{
+    background-color: orangered;
     color: white;
-    padding: 20px;
-    border-bottom: 2px solid #020202;
+    padding: 0.8rem 0.3rem;
+    border-radius: 100%;
+
 }
 
-.header-titulo {
-    font-size: 8rem;
-    color: #a30404;
-    margin-bottom: 20px;
-}
-
-.header-image {
-    width: 80px;
-    height: 60px;
-    border: 2px solid #0d0c0c;
-    border-radius: 10px;
+.btn-github{
+    text-decoration: none;
+    background-color: rgb(7, 5, 31);
+    color: white;
+    font-weight: 600;
+    padding: 0.5rem 2rem;
+    border: 3px;
 }
